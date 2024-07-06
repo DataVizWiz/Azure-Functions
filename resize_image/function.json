@@ -1,0 +1,19 @@
+{
+    "scriptFile": "method_1.py",
+    "bindings": [
+      {
+        "name": "blobin",
+        "type": "blobTrigger",
+        "direction": "in",
+        "path": "landing/images/{name}.jpg",
+        "connection": "stgazfunc_STORAGE"
+      },
+      {
+        "name": "blobout",
+        "type": "blob",
+        "direction": "out",
+        "path": "transformed/thumbnails/{name}.jpg",
+        "connection": "stgazfunc_STORAGE"
+      }
+    ]
+  }
