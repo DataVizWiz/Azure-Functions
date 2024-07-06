@@ -6,14 +6,14 @@
         "type": "blobTrigger",
         "direction": "in",
         "path": "landing/images/{name}.jpg",
-        "connection": "stgazfunc_STORAGE"
+        "connection": "<storage_account>_STORAGE"
       },
       {
         "name": "blobout",
         "type": "blob",
         "direction": "out",
         "path": "transformed/thumbnails/{name}.jpg",
-        "connection": "stgazfunc_STORAGE"
+        "connection": "<storage_account>_STORAGE"
       }
     ]
   }

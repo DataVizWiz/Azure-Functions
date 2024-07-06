@@ -3,7 +3,7 @@ import logging
 from PIL import Image
 import io
 
-STORAGE_ACC = "stgazfunc_STORAGE"
+STORAGE_ACC = "<storage_account>_STORAGE"
 
 app = func.FunctionApp()
 
