@@ -3,7 +3,7 @@ import logging
 from PIL import Image
 import io
 
-STORAGE_ACC = "<storage_account>_STORAGE"
+STORAGE_ACC = "<storage_acount>_STORAGE"
 
 app = func.FunctionApp()
 
